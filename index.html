@@ -6,12 +6,13 @@
 <style>
 a:hover { background-color:yellow; color:black; text-decoration:none; }
 a:active { background-color:orange; color:black; text-decoration:none; }
-.row:hover { background-color:lightyellow; text-decoration:none; }
+.highlight:hover { background-color:lightyellow; text-decoration:none; }
 .headb { color:white; }
 .headb:hover { background-color:yellow; color:black; text-decoration:none; }
 .headb:active { background-color:orange; color:black; text-decoration:none; }
 .squished { margin:0; padding:0; }
-.rowb { border:1px solid #ddd; padding:18px; margin:0; }
+.rowb { border:1px solid #ddd; padding:25px; margin:0; }
+.rowh { border:1px solid blue; padding:35px; margin:0; }
 </style>
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -22,9 +23,26 @@ a:active { background-color:orange; color:black; text-decoration:none; }
 </head><body>
 <div class="container-fluid">
 
-  <h1 class="bg-primary rowb"><a href="https://github.com/attogram/" class="headb">The Attogram Project</a></h1>
+  <div class="row rowh bg-primary">
+    <div class="col-sm-6">
+        <h1><a href="https://github.com/attogram/" class="headb">The Attogram Project</a></h1>
+    </div>
+    <div class="col-sm-3 small">
+      <a href="#attogram" class="headb">Attogram Framework</a>
+      <br /><a href="#attogram-base" class="headb">Attogram Base Module</a>
+      <br /><a href="#attogram-database" class="headb">Attogram Database Module</a>
+      <br /><a href="#attogram-user" class="headb">Attogram User Module</a>
+    </div>
+    <div class="col-sm-3 small">
+      <a href="#ote" class="headb">Open Translation Engine</a>
+      <br /><a href="#dams" class="headb">Dictionary Additions Management System</a>
+      <br /><a href="#8queens" class="headb">8 Queens puzzle</a>
+      <br /><a href="#attogram.github.io" class="headb">attogram.github.io</a>
+    </div>
+  </div>
 
-  <div class="row rowb">
+  <a name="attogram"></a>
+  <div class="row rowb highlight">
     <div class="col-sm-5">
       <h2 class="squished"><a href="https://github.com/attogram/attogram">Attogram Framework</a></h2>
       The Attogram Framework provides developers a PHP skeleton starter site with content modules,
@@ -52,7 +70,8 @@ a:active { background-color:orange; color:black; text-decoration:none; }
     </div>
   </div>
 
-  <div class="row rowb">
+  <a name="ote"></a>
+  <div class="row rowb highlight">
     <div class="col-sm-5">
       <h2 class="squished"><a href="https://github.com/attogram/ote">Open Translation Engine</a></h2>
       The Open Translation Engine is a collaborative translation dictionary manager for the open content web.
@@ -79,7 +98,8 @@ a:active { background-color:orange; color:black; text-decoration:none; }
     </div>
   </div>
 
-  <div class="row rowb">
+  <a name="dams"></a>
+  <div class="row rowb highlight">
     <div class="col-sm-5">
       <h2 class="squished"><a href="https://github.com/attogram/DAMS">Dictionary Additions Management Systems</a></h2>
       Open Content translation dictionary files.
@@ -99,7 +119,8 @@ a:active { background-color:orange; color:black; text-decoration:none; }
     </div>
   </div>
 
-  <div class="row rowb">
+  <a name="8queens"></a>
+  <div class="row rowb highlight">
     <div class="col-sm-5">
       <h2 class="squished"><a href="https://github.com/attogram/8queens">8queens</a></h2>
       Play the 8 Queens chess puzzle.
@@ -125,7 +146,8 @@ a:active { background-color:orange; color:black; text-decoration:none; }
     </div>
   </div>
 
-  <div class="row rowb">
+  <a name="attogram-base"></a>
+  <div class="row rowb highlight">
       <div class="col-sm-5">
         <h2 class="squished"><a href="https://github.com/attogram/attogram-base">Attogram Base Module</a></h2>
         Base module for the Attogram Framework.
@@ -150,7 +172,8 @@ a:active { background-color:orange; color:black; text-decoration:none; }
       </div>
   </div>
 
-  <div class="row rowb">
+  <a name="attogram-database"></a>
+  <div class="row rowb highlight">
     <div class="col-sm-5">
       <h2 class="squished"><a href="https://github.com/attogram/attogram-database">Attogram Database Module</a></h2>
       Database module for the Attogram Framework.
@@ -175,7 +198,8 @@ a:active { background-color:orange; color:black; text-decoration:none; }
     </div>
   </div>
 
-  <div class="row rowb">
+  <a name="attogram-user"></a>
+  <div class="row rowb highlight">
     <div class="col-sm-5">
       <h2 class="squished"><a href="https://github.com/attogram/attogram-user">Attogram User Module</a></h2>
       User module for the Attogram Framework.
@@ -200,7 +224,8 @@ a:active { background-color:orange; color:black; text-decoration:none; }
     </div>
   </div>
 
-  <div class="row rowb">
+  <a name="attogram.github.io"></a>
+  <div class="row rowb highlight">
     <div class="col-sm-5">
       <h2 class="squished"><a href="https://github.com/attogram/attogram.github.io">attogram.github.io</a></h2>
       This website!
@@ -214,16 +239,13 @@ a:active { background-color:orange; color:black; text-decoration:none; }
     </div>
   </div>
 
-
-<footer class="text-center">
+<footer class="text-center small highlight">
   <p><br /></p>
-  <small>
- <a href="https://attogram.github.io/"><strong>attogram</strong>.github.io</a>
- &nbsp; | &nbsp; <a href="https://github.com/attogram"><strong>github</strong>.com/attogram</a>
- &nbsp; | &nbsp; <a href="https://patreon.com/attogram"><strong>patreon</strong>.com/attogram</a>
- &nbsp; | &nbsp; <a href="https://packagist.org/packages/attogram/"><strong>packagist</strong>.org/packages/attogram</a>
- &nbsp; | &nbsp; <a href="https://travis-ci.org/attogram"><strong>travis-ci</strong>.org/attogram</a>
- </small>
+  <a href="https://attogram.github.io/"><strong>attogram</strong>.github.io</a>
+  &nbsp; | &nbsp; <a href="https://github.com/attogram"><strong>github</strong>.com/attogram</a>
+  &nbsp; | &nbsp; <a href="https://patreon.com/attogram"><strong>patreon</strong>.com/attogram</a>
+  &nbsp; | &nbsp; <a href="https://packagist.org/packages/attogram/"><strong>packagist</strong>.org/packages/attogram</a>
+  &nbsp; | &nbsp; <a href="https://travis-ci.org/attogram"><strong>travis-ci</strong>.org/attogram</a>
 </footer>
 </div>
 </body>

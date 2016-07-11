@@ -1,0 +1,14 @@
+language: php
+php:
+  - 7.0
+
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install oracle-java8-installer
+  - sudo update-java-alternatives -s java-8-oracle # install Java 8 as required by vnu.jar
+
+install:
+  - pip install html5validator
+
+script:
+  html5validator --root index.html

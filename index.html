@@ -3,6 +3,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<style>
+.squished { margin:0; padding:0; }
+.rowb { border:1px solid #ddd; padding:5px; }
+</style>
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -14,26 +18,32 @@
 
   <h1>The Attogram Project on GitHub</h1>
 
-  <div class="row" style="border:1px solid #ddd;">
-    <div class="col-sm-3">PROJECT</div>
-    <div class="col-sm-1">README</div>
-    <div class="col-sm-1">CHANGELOG</div>
-    <div class="col-sm-1">TODO</div>
-    <div class="col-sm-1">PACKAGIST</div>
-    <div class="col-sm-1">TRAVIS-CI</div>
-    <div class="col-sm-1">CODACITY</div>
-    <div class="col-sm-1">CODECLIMATE</div>
+  <div class="row rowb small text-muted">
+    <div class="col-md-4">PROJECT</div>
+    <div class="col-md-2">INFO</div>
+    <div class="col-md-1">PACKAGIST</div>
+    <div class="col-md-1">TRAVIS-CI</div>
+    <div class="col-md-1">CODACITY</div>
+    <div class="col-md-1">CODECLIMATE</div>
   </div>
 
-  <div class="row" style="border:1px solid #ddd;">
-    <div class="col-sm-1"><a href="https://github.com/attogram/attogram">Attogram Framework</a></div>
-    <div class="col-sm-1"><a href="https://github.com/attogram/attogram/blob/master/README.md">README</a></div>
-    <div class="col-sm-1"><a href="https://github.com/attogram/attogram/blob/master/CHANGELOG.md">CHANGELOG</a></div>
-    <div class="col-sm-1"><a href="https://github.com/attogram/attogram/blob/master/TODO.md">TODO</a></div>
-    <div class="col-sm-1"><a href="https://packagist.org/packages/attogram/attogram-framework">attogram/attogram-framework</a></div>
-    <div class="col-sm-1"><a href="https://travis-ci.org/attogram/attogram"><img src="https://travis-ci.org/attogram/attogram.svg?branch=master"></a></div>
-    <div class="col-sm-1"><a href="https://www.codacy.com/app/attogram-project/attogram/dashboard">attogram-project/attogram</a></div>
-    <div class="col-sm-1"><a href="https://codeclimate.com/github/attogram/attogram">attogram/attogram</a></div>
+  <div class="row rowb" style="border:1px solid #ddd; padding:5px;">
+    <div class="col-sm-4">
+      <h3 class="squished"><a href="https://github.com/attogram/attogram">Attogram Framework</a></h3>
+      provides developers a PHP skeleton starter site with content modules, file-based URL routing,
+      IP-protected backend, user system, integrated SQLite database with web admin, Markdown parser,
+      jQuery and Bootstrap. After that, Attogram tries to stay out of your way while you do your thing!
+    </div>
+    <div class="col-md-2">
+        <a href="https://github.com/attogram/attogram/blob/master/README.md">README</a>
+        <br /><a href="https://github.com/attogram/attogram/blob/master/CHANGELOG.md">CHANGELOG</a>
+        <br /><a href="https://github.com/attogram/attogram/blob/master/LICENSE.md">LICENSE</a>
+        <br /><a href="https://github.com/attogram/attogram/blob/master/TODO.md">TODO</a>
+    </div>
+    <div class="col-md-1"><a href="https://packagist.org/packages/attogram/attogram-framework">attogram/attogram-framework</a></div>
+    <div class="col-md-1"><a href="https://travis-ci.org/attogram/attogram"><img src="https://travis-ci.org/attogram/attogram.svg?branch=master"></a></div>
+    <div class="col-md-1"><a href="https://www.codacy.com/app/attogram-project/attogram/dashboard">attogram-project/attogram</a></div>
+    <div class="col-md-1"><a href="https://codeclimate.com/github/attogram/attogram">attogram/attogram</a></div>
   </div>
 
 <p><hr /></p>

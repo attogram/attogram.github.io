@@ -1,0 +1,9 @@
+a:hover { background-color:yellow; color:black; text-decoration:none; }
+a:active { background-color:orange; color:black; text-decoration:none; }
+.highlight:hover { background-color:lightyellow; text-decoration:none; }
+.headb { color:white; }
+.headb:hover { background-color:yellow; color:black; text-decoration:none; }
+.headb:active { background-color:orange; color:black; text-decoration:none; }
+.squished { margin:0; padding:0; }
+.rowb { border:1px solid #ddd; padding:24px; margin:0; }
+.rowh { border:1px solid blue; padding:34px; margin:0; }

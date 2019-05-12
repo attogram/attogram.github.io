@@ -195,6 +195,10 @@ class AttogramWebsite
             ? $projectIndex . '.png'
             : 'project.png';
 
+        $start = !empty($project['start'])
+            ? $project['start']
+            : '';
+
         $mainLink = $home ?? $demo ?? '.';
 
 
@@ -208,6 +212,7 @@ class AttogramWebsite
             . ($tech ? '<div class="tech">Tech: ' . $tech . '</div>' : '')
             . ($home ? '<div class="home"><a href="' . $home . '">' . $name . ' <b>Project</b></a></div>': '')
             . ($demo ? '<div class="demo"><a href="' . $demo . '">' . $name . ' <b>Demo</b></a></div>': '')
+            . ($start ? '<div class="start">Founded: ' . $start . '</div>': '')
             . '</div>';
     }
 

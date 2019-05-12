@@ -10,6 +10,7 @@ $projects = [
         'tech'    => 'Javascript, React, Chessboard.jsx',
         'home'    => 'https://github.com/attogram/EightQueens',
         'demo'    => 'https://fosiper.com/games/EightQueens/',
+        'start'   => '2019',
     ],
     'games' => [
         'name'    => 'Games Website Builder',
@@ -24,6 +25,7 @@ $projects = [
         'tech'    => 'PHP 7, SQLite, Financial APIs',
         'home'    => 'https://github.com/attogram/currency-exchange-rates',
         'demo'    => 'https://getitdaily.com/rates/',
+        'start'   => '2019',
     ],
     'body-mass-info-table' => [
         'name'    => 'Body Mass Info Table',
@@ -31,6 +33,7 @@ $projects = [
         'tech'    => 'PHP 7',
         'home'    => 'https://github.com/attogram/body-mass-info-table',
         'demo'    => 'https://getitdaily.com/body-mass-info-table/',
+        'start'   => '2019',
     ],
     'shared-media-tagger' => [
         'name'    => 'Shared Media Tagger',
@@ -51,6 +54,7 @@ $projects = [
         'about'   => 'Clean Repo: Games - a collaborative project to find and remove hidden tracking codes, advertising, trojans and excessive promotional content from open source game repositories.',
         'home'    => 'https://github.com/attogram/clean-repo-games',
         'demo'    => 'https://attogram.github.io/clean-repo-games/',
+        'start'   => '2019',
     ],
     'ote' => [
         'name'    => 'Open Translation Engine',
@@ -58,11 +62,14 @@ $projects = [
         'tech'    => 'PHP, SQLite / MySQL',
         'home'    => 'https://github.com/attogram/ote',
         'demo'    => 'https://ote.2meta.com/',
+        'start'   => '2001',
     ],
     'github' => [
         'name'    => 'Attogram on Github',
-        'about'   => 'Our Git repository service provider.  Started many years ago with the migration of the Open Translation Engine from sourceforge.',
+        'about'   => 'Our Git repository service provider.'
+                   . ' Started with the migration of the Open Translation Engine SVN repository from SourceForge.',
         'home'    => 'https://github.com/attogram',
+        'start'   => '2014',
     ],
     'patreon' => [
         'name'    => 'Attogram on Patreon',

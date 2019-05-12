@@ -36,7 +36,7 @@ h1 {
     padding: 0;
     width: 320px;
 }
-.project .name, .about, .home, .demo, .tech {
+.project .name, .about, .home, .demo, .tech, .start {
     margin: 10px 10px 10px 10px;
 }
 .project .name {
@@ -46,9 +46,14 @@ h1 {
 .project .about {
     font-size: 95%;
 }
-.project .home, .demo, .tech {
+.project .home, .demo, .tech, .start {
     font-size: 85%;
 }
 .project .tech {
     font-style: italic;
+}
+.project .start {
+    font-family: monospace;
+    float: right;
+    margin-bottom: 0;
 }

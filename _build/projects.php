@@ -34,16 +34,14 @@ $projects = [
     ],
     'ote' => [
         'name'    => 'Open Translation Engine',
-        'about'   => 'A collaborative translation dictionary manager for the open content web.  Started in 2001.',
+        'about'   => 'A collaborative translation dictionary manager for the open content web.',
         'tech'    => 'PHP, SQLite / MySQL',
         'home'    => 'https://github.com/attogram/ote',
         'demo'    => 'https://ote.2meta.com/',
     ],
     'github' => [
         'name'    => 'Attogram on Github',
-        'about'   => 'Our Git repository service provider.'
-                     . ' Starting in 2014 with the migration of the Open Translation Engine'
-                     . ' from sourceforge.',
+        'about'   => 'Our Git repository service provider.  Started many years ago with the migration of the Open Translation Engine from sourceforge.',
         'home'    => 'https://github.com/attogram',
     ],
     'patreon' => [

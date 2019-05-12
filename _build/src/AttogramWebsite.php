@@ -3,6 +3,7 @@ declare(strict_types = 1);
 
 namespace Attogram\Projects;
 
+use DateTime;
 use Exception;
 
 use function count;
@@ -152,6 +153,11 @@ class AttogramWebsite
             ? file_get_contents($this->customDirectory . $footerFile)
             : file_get_contents($this->templatesDirectory . $footerFile);
         $this->footer = str_replace('{{VERSION}}', 'v' . self::VERSION, $this->footer);
+        $this->footer = str_replace(
+            '{{LASTUPDATED}}',
+            gmdate('Y-m-d H:i:s') . ' UTC',
+            $this->footer
+        );
     }
 
     private function buildMenu()

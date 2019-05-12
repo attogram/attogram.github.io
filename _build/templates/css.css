@@ -57,3 +57,9 @@ h1 {
     float: right;
     margin-bottom: 0;
 }
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: monospace;
+    font-size: 90%;
+}

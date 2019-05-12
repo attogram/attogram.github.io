@@ -11,6 +11,13 @@ $projects = [
         'home'    => 'https://github.com/attogram/EightQueens',
         'demo'    => 'https://fosiper.com/games/EightQueens/',
     ],
+    'games' => [
+        'name'    => 'Games Website Builder',
+        'about'   => 'Your own games website, filled with open source goodness!  Automated installation of a plethora of open source web games.  Fully customizable.',
+        'tech'    => 'PHP 7, Git',
+        'home'    => 'https://github.com/attogram/games',
+        'demo'    => 'https://fosiper.com/games/',
+    ],
     'currency-exchange-rates' => [
         'name'    => 'Currency Exchange Rates',
         'about'   => 'Currency Exchange Rates Website with data from: The European Central Bank, The Swiss National Bank, The Bank of Israel, The Central Bank of the Russian Federation, and The Reserve Bank of Australia.',

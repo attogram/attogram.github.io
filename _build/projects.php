@@ -11,6 +11,20 @@ $projects = [
         'home'    => 'https://github.com/attogram/EightQueens',
         'demo'    => 'https://attogram.github.io/EightQueens/',
     ],
+    'currency-exchange-rates' => [
+        'name'    => 'Currency Exchange Rates',
+        'about'   => 'Currency Exchange Rates Website with data from: The European Central Bank, The Swiss National Bank, The Bank of Israel, The Central Bank of the Russian Federation, and The Reserve Bank of Australia.',
+        'tech'    => 'PHP 7, SQLite',
+        'home'    => 'https://github.com/attogram/currency-exchange-rates',
+        'demo'    => 'https://getitdaily.com/rates/',
+    ],
+    'body-mass-info-table' => [
+        'name'    => 'Body Mass Info Table',
+        'about'   => 'Multi-weight Body Mass Index (BMI) table based on your height, age and sex, with calculated Body Fat/Lean Percentage, Base Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE) for various activity levels.',
+        'tech'    => 'PHP 7',
+        'home'    => 'https://github.com/attogram/body-mass-info-table',
+        'demo'    => 'https://getitdaily.com/body-mass-info-table/',
+    ],
     'ote' => [
         'name'    => 'Open Translation Engine',
         'about'   => 'A collaborative translation dictionary manager for the open content web.',
@@ -20,7 +34,9 @@ $projects = [
     ],
     'github' => [
         'name'    => 'Attogram on Github',
-        'about'   => 'Our main repository service provider.',
+        'about'   => 'Our Git repository service provider.'
+                     . ' Starting in 2014 with the migration of the Open Translation Engine'
+                     . ' from sourceforge.',
         'home'    => 'https://github.com/attogram',
     ],
     'patreon' => [

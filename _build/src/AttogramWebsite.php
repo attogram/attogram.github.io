@@ -203,11 +203,11 @@ class AttogramWebsite
             . '<img src="' . self::LOGO_SUBDIRECTORY . '/' . $logo . '" width="' . self::LOGO_WIDTH
                 . '" height="' . self::LOGO_HEIGHT . '" alt="' . $project['name'] . '">'
             . '</a>'
-            . '<div class="name"> &nbsp; <a href="' . $mainLink . '">' . $name . '</a></div>'
+            . '<div class="name"><a href="' . $mainLink . '">' . $name . '</a></div>'
             . '<div class="about">' . $about . '</div>'
-            . ($tech ? '<div class="tech">' . $tech . '</div>' : '')
-            . ($home ? '<p> &nbsp; <a href="' . $home . '">' . $name . ' <b>Project Info</b></a></p>': '')
-            . ($demo ? '<p> &nbsp; <a href="' . $demo . '">' . $name . ' <b>Live Demo</b></a></p>': '')
+            . ($tech ? '<div class="tech">Tech: ' . $tech . '</div>' : '')
+            . ($home ? '<div class="home"><a href="' . $home . '">' . $name . ' <b>Project</b></a></div>': '')
+            . ($demo ? '<div class="demo"><a href="' . $demo . '">' . $name . ' <b>Demo</b></a></div>': '')
             . '</div>';
     }
 

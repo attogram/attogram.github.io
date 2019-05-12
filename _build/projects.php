@@ -14,7 +14,7 @@ $projects = [
     'currency-exchange-rates' => [
         'name'    => 'Currency Exchange Rates',
         'about'   => 'Currency Exchange Rates Website with data from: The European Central Bank, The Swiss National Bank, The Bank of Israel, The Central Bank of the Russian Federation, and The Reserve Bank of Australia.',
-        'tech'    => 'PHP 7, SQLite',
+        'tech'    => 'PHP 7, SQLite, Financial APIs',
         'home'    => 'https://github.com/attogram/currency-exchange-rates',
         'demo'    => 'https://getitdaily.com/rates/',
     ],
@@ -24,6 +24,13 @@ $projects = [
         'tech'    => 'PHP 7',
         'home'    => 'https://github.com/attogram/body-mass-info-table',
         'demo'    => 'https://getitdaily.com/body-mass-info-table/',
+    ],
+    'shared-media-tagger' => [
+        'name'    => 'Shared Media Tagger',
+        'about'   => 'Crowdsourced ratings website for freely licensed images and media from Wikimedia Commons. PHP, SQLite, MediaWiki API, Curators backend.',
+        'tech'    => 'PHP, Wikimedia API',
+        'home'    => 'https://github.com/attogram/shared-media-tagger',
+        'demo'    => 'https://fosiper.com/cats/',
     ],
     'ote' => [
         'name'    => 'Open Translation Engine',

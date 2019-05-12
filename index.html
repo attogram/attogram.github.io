@@ -1,423 +1,71 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8">
+<html lang="en">
+<head>
+<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<link rel="stylesheet" href="css.css">
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-<title>The Attogram Project</title>
-<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-</head><body>
-<div class="container-fluid">
-  <div class="row rowh text-muted bg-success">
-    <div class="col-sm-6 text-center">
-      <h1><a href="https://github.com/attogram/" class="headb">Attogram<br />Project</a></h1>
-    </div>
-    <div class="col-sm-3 small">
-      <a href="#attogram" class="headb" style="font-size:120%;"><strong>Attogram Framework</strong></a>
-      <br />
-      <br /><em>Attogram Core Modules:</em>
-      <br />&nbsp; - <a href="#attogram-database" class="headb">Database</a>
-      <br />&nbsp; - <a href="#attogram-user" class="headb">User</a>
-      <br />&nbsp; - <a href="#attogram-info" class="headb">Info</a>
-      <br />&nbsp; - <a href="#attogram-contactform" class="headb">Contact Form</a>
-      <br />&nbsp; - <a href="#attogram-modulemanager" class="headb">Module Manager</a>
-      <br />
-      <br /><em>Attogram Site Modules:</em>
-      <br /><a href="#ote" class="headb">&nbsp; - Open Translation Engine</a>
-      <br /><a href="#games" class="headb">&nbsp; - Games Site</a>
-      <br /><a href="#8queens" class="headb">&nbsp; - 8 Queens puzzle</a>
-    </div>
-    <div class="col-sm-3 small">
-      <a href="#dams" class="headb"> - Dictionary Additions
-      <br /> &nbsp; Management System</a>
-      <br /><br /><a href="#wiib" class="headb"> - Which image is better?</a>
-      <br /><br /><a href="#yamwat" class="headb"> - Yamwat</a>
-      <br /><br /><a href="#domdoodler" class="headb"> - domdoodler</a>
-      <br /><br /><a href="#htfaker" class="headb"> - htfaker</a>
-      <br /><br /><a href="#attogram.github.io" class="headb"> - attogram.github.io</a>
-    </div>
-  </div>
+<title>Attogram Project - building open source projects for fun and profit</title>
+<style>body {
+    background-color: lightgray;
+    font-family: sans-serif;
+    margin: 10px;
+}
+a, a:visited {
+    color: darkblue;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #e1ff67;
+    color: black;
+}
+h1 {
+    font-size: 130%;
+    display: inline;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.project {
+    background-color: white;
+    border: 1px solid grey;
+    margin: 5px;
+    margin-right: 10px;
+    padding: 0 0 10px 0;
+    text-align: left;
+    width: 320px;
+}
+.project img {
+    border: 0;
+    border-bottom: 1px solid grey;
+    height: 160px;
+    margin: 0;
+    padding: 0;
+    width: 320px;
+}
+.project .name {
+    font-size: 135%;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.project .about {
+    padding: 10px;
+}
+.project .tech {
+    font-style: italic;
+    padding: 10px;
+}
+</style>
+</head>
+<body>
+<h1>
+    Welcome to the Attogram Project
+</h1>
+<p>
+    <em>building open source projects for fun and profit since 2007</em>
+</p>
 
-  <a name="attogram"></a>
-  <div class="row rowb highlight">
-    <div class="col-sm-5">
-      <h2 class="squished"><a href="https://github.com/attogram/attogram">Attogram Framework</a></h2>
-      The Attogram Framework provides developers a PHP skeleton starter site with content modules,
-      file-based URL routing, IP-protected backend, user system, integrated SQLite database with web admin,
-      Markdown parser, jQuery and Bootstrap.
-      After that, Attogram tries to stay out of your way while you do your thing!
-    </div>
-    <div class="col-sm-2">
-        <a href="https://github.com/attogram/attogram/blob/master/README.md">README</a>
-        <br /><a href="https://github.com/attogram/attogram/blob/master/CHANGELOG.md">CHANGELOG</a>
-        <br /><a href="https://github.com/attogram/attogram/blob/master/TODO.md">TODO</a>
-        <br /><a href="https://github.com/attogram/attogram/blob/master/LICENSE.md">LICENSE</a>
-    </div>
-    <div class="col-sm-2">
-        <a href="https://travis-ci.org/attogram/attogram"><img src="https://travis-ci.org/attogram/attogram.svg?branch=master" alt="Build" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/attogram-framework"><img src="https://poser.pugx.org/attogram/attogram-framework/v/stable" alt="Latest Stable Version" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/attogram-framework"><img src="https://poser.pugx.org/attogram/attogram-framework/downloads" alt="Total Downloads" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/attogram-framework"><img src="https://poser.pugx.org/attogram/attogram-framework/v/unstable" alt="Latest Unstable Version" /></a>
-        <br /><a href="https://github.com/attogram/attogram/blob/master/LICENSE.md"><img src="https://poser.pugx.org/attogram/attogram-framework/license" alt="License" /></a>
-    </div>
-    <div class="col-sm-3">
-        <a href="https://www.codacy.com/app/attogram-project/attogram?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=attogram/attogram&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/0a50344b228f46c98ffb06b78b99cbe0" alt="Score" /></a>
-        <br /><a href="https://codeclimate.com/github/attogram/attogram"><img src="https://codeclimate.com/github/attogram/attogram/badges/gpa.svg" alt="Code Climate" /></a>
-        <br /><a href="https://codeclimate.com/github/attogram/attogram"><img src="https://codeclimate.com/github/attogram/attogram/badges/issue_count.svg" alt="Issue Count" /></a>
-        <br /><a href='https://www.versioneye.com/user/projects/5786289c6edb08003d1086f4'><img src='https://www.versioneye.com/user/projects/5786289c6edb08003d1086f4/badge.svg?style=flat-square' alt="Dependency Status" /></a>
-        <br /><a href='https://www.versioneye.com/php/attogram:attogram-framework/references'><img src='https://www.versioneye.com/php/attogram:attogram-framework/reference_badge.svg?style=flat-square' alt="Reference Status" /></a>
-    </div>
-  </div>
 
-  <a name="ote"></a>
-  <div class="row rowb highlight">
-    <div class="col-sm-5">
-      <h2 class="squished"><a href="https://github.com/attogram/ote">Open Translation Engine</a></h2>
-      The Open Translation Engine is a collaborative translation dictionary manager for the open content web.
-      <br />PHP / SQLite / Attogram Framework module.
-    </div>
-    <div class="col-sm-2">
-        <a href="https://github.com/attogram/ote/blob/master/README.md">README</a>
-        <br /><a href="https://github.com/attogram/ote/blob/master/CHANGELOG.md">CHANGELOG</a>
-        <br /><a href="https://github.com/attogram/ote/blob/master/TODO.md">TODO</a>
-        <br /><a href="https://github.com/attogram/ote/blob/master/LICENSE.md">LICENSE</a>
-        <br /><a href="https://github.com/attogram/ote/blob/master/INSTALLATIONS.md">INSTALLATIONS</a>
-    </div>
-    <div class="col-sm-2">
-        <a href="https://travis-ci.org/attogram/ote"><img src="https://travis-ci.org/attogram/ote.svg?branch=master" alt="Build" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/open-translation-engine"><img src="https://poser.pugx.org/attogram/open-translation-engine/v/stable" alt="Latest Stable Version" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/open-translation-engine"><img src="https://poser.pugx.org/attogram/open-translation-engine/downloads" alt="Total Downloads" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/open-translation-engine"><img src="https://poser.pugx.org/attogram/open-translation-engine/v/unstable" alt="Latest Unstable Version" /></a>
-        <br /><a href="https://github.com/attogram/ote/blob/master/LICENSE.md"><img src="https://poser.pugx.org/attogram/open-translation-engine/license" alt="License" /></a>
-    </div>
-    <div class="col-sm-3">
-        <a href="https://www.codacy.com/app/attogram-project/ote?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=attogram/ote&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/a078450b69e84d9e8a85232f22b5c5ef" alt="Score" /></a>
-        <br /><a href="https://codeclimate.com/github/attogram/ote"><img src="https://codeclimate.com/github/attogram/ote/badges/gpa.svg" alt="Code Climate" /></a>
-        <br /><a href="https://codeclimate.com/github/attogram/ote"><img src="https://codeclimate.com/github/attogram/ote/badges/issue_count.svg" alt="Issue Count" /></a>
-        <br /><a href='https://www.versioneye.com/php/attogram:open-translation-engine/references'><img src='https://www.versioneye.com/php/attogram:open-translation-engine/reference_badge.svg?style=flat-square' alt="Reference Status" /></a>
 
-    </div>
-  </div>
-
-  <a name="dams"></a>
-  <div class="row rowb highlight">
-    <div class="col-sm-5">
-      <h2 class="squished"><a href="https://github.com/attogram/DAMS">Dictionary Additions Management Systems</a></h2>
-      Open Content translation dictionary files.
-    </div>
-    <div class="col-sm-2">
-        <a href="https://github.com/attogram/DAMS/blob/master/README.md">README</a>
-        <br /><a href="https://github.com/attogram/DAMS/blob/master/CHANGELOG.md">CHANGELOG</a>
-        <br /><a href="https://github.com/attogram/DAMS/blob/master/TODO.md">TODO</a>
-    </div>
-    <div class="col-sm-2">
-        <a href="https://packagist.org/packages/attogram/dams"><img src="https://poser.pugx.org/attogram/dams/v/stable" alt="Latest Stable Version" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/dams"><img src="https://poser.pugx.org/attogram/dams/downloads" alt="Total Downloads" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/dams"><img src="https://poser.pugx.org/attogram/dams/v/unstable" alt="Latest Unstable Version" /></a>
-        <br /><a href="https://github.com/attogram/DAMS"><img src="https://poser.pugx.org/attogram/dams/license" alt="License" /></a>
-    </div>
-    <div class="col-sm-3">
-        <a href='https://www.versioneye.com/php/attogram:dams/references'><img src='https://www.versioneye.com/php/attogram:dams/reference_badge.svg?style=flat-square' alt="Reference Status" /></a>
-    </div>
-  </div>
-
-  <a name="games"></a>
-  <div class="row rowb highlight">
-    <div class="col-sm-5">
-      <h2 class="squished"><a href="https://github.com/attogram/games">Games Site</a></h2>
-      The Games Site is a collection of open source web-based games,
-      gathered together into an Attogram Framework module
-    </div>
-    <div class="col-sm-2">
-        <a href="https://github.com/attogram/games/blob/master/README.md">README</a>
-        <br /><a href="https://github.com/attogram/games/blob/master/CHANGELOG.md">CHANGELOG</a>
-        <br /><a href="https://github.com/attogram/games/blob/master/TODO.md">TODO</a>
-        <br /><a href="https://github.com/attogram/games/blob/master/LICENSE.md">LICENSE</a>
-    </div>
-    <div class="col-sm-2">
-        <a href="https://packagist.org/packages/attogram/games"><img src="https://poser.pugx.org/attogram/games/v/stable" alt="Latest Stable Version" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/games"><img src="https://poser.pugx.org/attogram/games/downloads" alt="Total Downloads" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/games"><img src="https://poser.pugx.org/attogram/games/v/unstable" alt="Latest Unstable Version" /></a>
-        <br /><a href="https://github.com/attogram/games/blob/master/LICENSE.md"><img src="https://poser.pugx.org/attogram/games/license" alt="License" /></a>
-    </div>
-    <div class="col-sm-3">
-    </div>
-  </div>
-
-  <a name="8queens"></a>
-  <div class="row rowb highlight">
-    <div class="col-sm-5">
-      <h2 class="squished"><a href="https://github.com/attogram/8queens">8queens</a></h2>
-      Play the 8 Queens chess puzzle.
-      <br />PHP / Javascript / Attogram Framework module.
-    </div>
-    <div class="col-sm-2">
-        <a href="https://github.com/attogram/8queens/blob/master/README.md">README</a>
-        <br /><a href="https://github.com/attogram/8queens/blob/master/CHANGELOG.md">CHANGELOG</a>
-        <br /><a href="https://github.com/attogram/8queens/blob/master/TODO.md">TODO</a>
-        <br /><a href="https://github.com/attogram/8queens/blob/master/LICENSE.md">LICENSE</a>
-    </div>
-    <div class="col-sm-2">
-        <a href="https://travis-ci.org/attogram/8queens"><img src="https://travis-ci.org/attogram/8queens.svg?branch=master" alt="Build" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/8queens"><img src="https://poser.pugx.org/attogram/8queens/v/stable" alt="Latest Stable Version" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/8queens"><img src="https://poser.pugx.org/attogram/8queens/downloads" alt="Total Downloads" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/8queens"><img src="https://poser.pugx.org/attogram/8queens/v/unstable" alt="Latest Unstable Version" /></a>
-        <br /><a href="https://github.com/attogram/8queens/blob/master/LICENSE.md"><img src="https://poser.pugx.org/attogram/8queens/license" alt="License" /></a>
-    </div>
-    <div class="col-sm-3">
-        <a href="https://www.codacy.com/app/attogram-project/8queens?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=attogram/8queens&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/b471a1179412483e8c42eaaefe44c00d" alt="Grade" /></a>
-        <br /><a href="https://codeclimate.com/github/attogram/8queens"><img src="https://codeclimate.com/github/attogram/8queens/badges/gpa.svg" alt="Code Climate" /></a>
-        <br /><a href="https://codeclimate.com/github/attogram/8queens"><img src="https://codeclimate.com/github/attogram/8queens/badges/issue_count.svg" alt="Issue Count" /></a>
-        <br /><a href='https://www.versioneye.com/php/attogram:8queens/references'><img src='https://www.versioneye.com/php/attogram:8queens/reference_badge.svg?style=flat-square' alt="Reference Status" /></a>
-    </div>
-  </div>
-
-  <a name="attogram-database"></a>
-  <div class="row rowb highlight">
-    <div class="col-sm-5">
-      <h2 class="squished"><a href="https://github.com/attogram/attogram-database">Attogram Database Module</a></h2>
-      Database module for the Attogram Framework.
-    </div>
-    <div class="col-sm-2">
-        <a href="https://github.com/attogram/attogram-database/blob/master/README.md">README</a>
-        <br /><a href="https://github.com/attogram/attogram-database/blob/master/CHANGELOG.md">CHANGELOG</a>
-        <br /><a href="https://github.com/attogram/attogram-database/blob/master/TODO.md">TODO</a>
-        <br /><a href="https://github.com/attogram/attogram-database/blob/master/LICENSE.md">LICENSE</a>
-    </div>
-    <div class="col-sm-2">
-        <a href="https://travis-ci.org/attogram/attogram-database"><img src="https://travis-ci.org/attogram/attogram-database.svg?branch=master" alt="Build" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/attogram-database"><img src="https://poser.pugx.org/attogram/attogram-database/v/stable" alt="Latest Stable Version" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/attogram-database"><img src="https://poser.pugx.org/attogram/attogram-database/downloads" alt="Total Downloads" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/attogram-database"><img src="https://poser.pugx.org/attogram/attogram-database/v/unstable" alt="Latest Unstable Version" /></a>
-        <br /><a href="https://github.com/attogram/attogram-database/blob/master/LICENSE.md"><img src="https://poser.pugx.org/attogram/attogram-database/license" alt="License" /></a>
-    </div>
-    <div class="col-sm-3">
-        <a href="https://www.codacy.com/app/attogram-project/attogram-database?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=attogram/attogram-database&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/504e180dee5e460db61335319b5de859" alt="Grade" /></a>
-        <br /><a href="https://codeclimate.com/github/attogram/attogram-database"><img src="https://codeclimate.com/github/attogram/attogram-database/badges/gpa.svg" alt="Code Climate" /></a>
-        <br /><a href="https://codeclimate.com/github/attogram/attogram-database"><img src="https://codeclimate.com/github/attogram/attogram-database/badges/issue_count.svg" alt="Issue Count" /></a>
-        <br /><a href='https://www.versioneye.com/php/attogram:attogram-database/references'><img src='https://www.versioneye.com/php/attogram:attogram-database/reference_badge.svg?style=flat-square' alt="Reference Status" /></a>
-    </div>
-  </div>
-
-  <a name="attogram-user"></a>
-  <div class="row rowb highlight">
-    <div class="col-sm-5">
-      <h2 class="squished"><a href="https://github.com/attogram/attogram-user">Attogram User Module</a></h2>
-      User module for the Attogram Framework.
-    </div>
-    <div class="col-sm-2">
-        <a href="https://github.com/attogram/attogram-user/blob/master/README.md">README</a>
-        <br /><a href="https://github.com/attogram/attogram-user/blob/master/CHANGELOG.md">CHANGELOG</a>
-        <br /><a href="https://github.com/attogram/attogram-user/blob/master/TODO.md">TODO</a>
-        <br /><a href="https://github.com/attogram/attogram-user/blob/master/LICENSE.md">LICENSE</a>
-    </div>
-    <div class="col-sm-2">
-        <a href="https://travis-ci.org/attogram/attogram-user"><img src="https://travis-ci.org/attogram/attogram-user.svg?branch=master" alt="Build" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/attogram-user"><img src="https://poser.pugx.org/attogram/attogram-user/v/stable" alt="Latest Stable Version" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/attogram-user"><img src="https://poser.pugx.org/attogram/attogram-user/downloads" alt="Total Downloads" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/attogram-user"><img src="https://poser.pugx.org/attogram/attogram-user/v/unstable" alt="Latest Unstable Version" /></a>
-        <br /><a href="https://github.com/attogram/attogram-user/blob/master/LICENSE.md"><img src="https://poser.pugx.org/attogram/attogram-user/license" alt="License" /></a>
-    </div>
-    <div class="col-sm-3">
-        <a href="https://www.codacy.com/app/attogram-project/attogram-user?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=attogram/attogram-user&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/8b2c48929d514a60b355a84f136c57c2" alt="Grade" /></a>
-        <br /><a href="https://codeclimate.com/github/attogram/attogram-user"><img src="https://codeclimate.com/github/attogram/attogram-user/badges/gpa.svg" alt="Code Climate" /></a>
-        <br /><a href="https://codeclimate.com/github/attogram/attogram-user"><img src="https://codeclimate.com/github/attogram/attogram-user/badges/issue_count.svg" alt="Issue Count" /></a>
-        <br /><a href='https://www.versioneye.com/php/attogram:attogram-user/references'><img src='https://www.versioneye.com/php/attogram:attogram-user/reference_badge.svg?style=flat-square' alt="Reference Status" /></a>
-    </div>
-  </div>
-
-  <a name="attogram-info"></a>
-  <div class="row rowb highlight">
-      <div class="col-sm-5">
-        <h2 class="squished"><a href="https://github.com/attogram/attogram-info">Attogram Info Module</a></h2>
-        Info module for the Attogram Framework.
-      </div>
-      <div class="col-sm-2">
-          <a href="https://github.com/attogram/attogram-info/blob/master/README.md">README</a>
-          <br /><a href="https://github.com/attogram/attogram-info/blob/master/CHANGELOG.md">CHANGELOG</a>
-          <br /><a href="https://github.com/attogram/attogram-info/blob/master/TODO.md">TODO</a>
-          <br /><a href="https://github.com/attogram/attogram-info/blob/master/LICENSE.md">LICENSE</a>
-      </div>
-      <div class="col-sm-2">
-          <a href="https://travis-ci.org/attogram/attogram-info"><img src="https://travis-ci.org/attogram/attogram-info.svg?branch=master" alt="Build" /></a>
-          <br /><a href="https://packagist.org/packages/attogram/attogram-info"><img src="https://poser.pugx.org/attogram/attogram-info/v/stable" alt="Latest Stable Version" /></a>
-          <br /><a href="https://packagist.org/packages/attogram/attogram-info"><img src="https://poser.pugx.org/attogram/attogram-info/downloads" alt="Total Downloads" /></a>
-          <br /><a href="https://packagist.org/packages/attogram/attogram-info"><img src="https://poser.pugx.org/attogram/attogram-info/v/unstable" alt="Latest Unstable Version" /></a>
-          <br /><a href="https://github.com/attogram/attogram-info/blob/master/LICENSE.md"><img src="https://poser.pugx.org/attogram/attogram-info/license" alt="License" /></a>
-      </div>
-      <div class="col-sm-3">
-          <a href="https://www.codacy.com/app/attogram-project/attogram-info?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=attogram/attogram-info&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/e9cf59f181944cedb746349dbcffa8a0" alt="Badge" /></a>          <br /><a href="https://codeclimate.com/github/attogram/attogram-info"><img src="https://codeclimate.com/github/attogram/attogram-info/badges/gpa.svg" alt="Code Climate" /></a>
-          <br /><a href="https://codeclimate.com/github/attogram/attogram-info"><img src="https://codeclimate.com/github/attogram/attogram-info/badges/issue_count.svg" alt="Issue Count" /></a>
-          <br /><a href='https://www.versioneye.com/php/attogram:attogram-info/references'><img src='https://www.versioneye.com/php/attogram:attogram-info/reference_badge.svg?style=flat-square' alt="Reference Status" /></a>
-      </div>
-  </div>
-
-  <a name="attogram-contactform"></a>
-  <div class="row rowb highlight">
-    <div class="col-sm-5">
-      <h2 class="squished"><a href="https://github.com/attogram/attogram-contactform">Attogram Contact Form Module</a></h2>
-      Contact Form module for the Attogram Framework.
-    </div>
-    <div class="col-sm-2">
-        <a href="https://github.com/attogram/attogram-contactform/blob/master/README.md">README</a>
-        <br /><a href="https://github.com/attogram/attogram-contactform/blob/master/CHANGELOG.md">CHANGELOG</a>
-        <br /><a href="https://github.com/attogram/attogram-contactform/blob/master/TODO.md">TODO</a>
-        <br /><a href="https://github.com/attogram/attogram-contactform/blob/master/LICENSE.md">LICENSE</a>
-    </div>
-    <div class="col-sm-2">
-        <a href="https://travis-ci.org/attogram/attogram-contactform"><img src="https://travis-ci.org/attogram/attogram-contactform.svg?branch=master" alt="Build" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/attogram-contactform"><img src="https://poser.pugx.org/attogram/attogram-contactform/v/stable" alt="Latest Stable Version" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/attogram-contactform"><img src="https://poser.pugx.org/attogram/attogram-contactform/downloads" alt="Total Downloads" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/attogram-contactform"><img src="https://poser.pugx.org/attogram/attogram-contactform/v/unstable" alt="Latest Unstable Version" /></a>
-        <br /><a href="https://github.com/attogram/attogram-contactform/blob/master/LICENSE.md"><img src="https://poser.pugx.org/attogram/attogram-contactform/license" alt="License" /></a>
-    </div>
-    <div class="col-sm-3">
-        <a href="https://www.codacy.com/app/attogram-project/attogram-contactform?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=attogram/attogram-contactform&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/ccc7d8a823254176bed3976cfa3bb2a6" alt="Badge" /></a>        <br /><a href="https://codeclimate.com/github/attogram/attogram-contactform"><img src="https://codeclimate.com/github/attogram/attogram-contactform/badges/gpa.svg" alt="Code Climate" /></a>
-        <br /><a href="https://codeclimate.com/github/attogram/attogram-contactform"><img src="https://codeclimate.com/github/attogram/attogram-contactform/badges/issue_count.svg" alt="Issue Count" /></a>
-        <br /><a href='https://www.versioneye.com/php/attogram:attogram-contactform/references'><img src='https://www.versioneye.com/php/attogram:attogram-contactform/reference_badge.svg?style=flat-square' alt="Reference Status" /></a>
-
-    </div>
-  </div>
-
-  <a name="attogram-modulemanager"></a>
-  <div class="row rowb highlight">
-    <div class="col-sm-5">
-      <h2 class="squished"><a href="https://github.com/attogram/attogram-modulemanager">Attogram Module Manager</a></h2>
-      Module Manager for the Attogram Framework.
-    </div>
-    <div class="col-sm-2">
-        <a href="https://github.com/attogram/attogram-modulemanager/blob/master/README.md">README</a>
-        <br /><a href="https://github.com/attogram/attogram-modulemanager/blob/master/CHANGELOG.md">CHANGELOG</a>
-        <br /><a href="https://github.com/attogram/attogram-modulemanager/blob/master/TODO.md">TODO</a>
-        <br /><a href="https://github.com/attogram/attogram-modulemanager/blob/master/LICENSE.md">LICENSE</a>
-    </div>
-    <div class="col-sm-2">
-        <a href="https://packagist.org/packages/attogram/attogram-modulemanager"><img src="https://poser.pugx.org/attogram/attogram-modulemanager/v/stable" alt="Latest Stable Version" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/attogram-modulemanager"><img src="https://poser.pugx.org/attogram/attogram-modulemanager/downloads" alt="Total Downloads" /></a>
-        <br /><a href="https://packagist.org/packages/attogram/attogram-modulemanager"><img src="https://poser.pugx.org/attogram/attogram-modulemanager/v/unstable" alt="Latest Unstable Version" /></a>
-        <br /><a href="https://github.com/attogram/attogram-modulemanager/blob/master/LICENSE.md"><img src="https://poser.pugx.org/attogram/attogram-modulemanager/license" alt="License" /></a>
-    </div>
-    <div class="col-sm-3">
-        <a href="https://www.codacy.com/app/attogram-project/attogram-modulemanager?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=attogram/attogram-modulemanager&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/91c50120add44e26bd22e605849e673b" alt="Badge" /></a>
-        <br /><a href="https://codeclimate.com/github/attogram/attogram-modulemanager"><img src="https://codeclimate.com/github/attogram/attogram-modulemanager/badges/issue_count.svg" alt="Issue Count" /></a>
-        <br /><a href='https://www.versioneye.com/php/attogram:attogram-modulemanager/references'><img src='https://www.versioneye.com/php/attogram:attogram-modulemanager/reference_badge.svg?style=flat-square' alt="Reference Status" /></a>
-
-    </div>
-  </div>
-
-  <a name="wiib"></a>
-  <div class="row rowb highlight">
-    <div class="col-sm-5">
-      <h2 class="squished"><a href="https://github.com/attogram/wiib">WiiB</a></h2>
-       WiiB - Which image is better?
-       Shared lightbox with free license photos and images from Wikimedia Commons.
-       PHP / SQLite
-       <br /><a href="http://getitdaily.com/image/">http://getitdaily.com/image/</a>
-    </div>
-    <div class="col-sm-2">
-        <a href="https://github.com/attogram/wiib/blob/master/README.md">README</a>
-        <br /><a href="https://github.com/attogram/wiib/blob/master/TODO.md">TODO</a>
-    </div>
-    <div class="col-sm-2">
-    </div>
-    <div class="col-sm-3">
-        <a href="https://www.codacy.com/app/attogram-project/wiib?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=attogram/wiib&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/f599d19f0d154ca7b373438a8cf37b75" alt="Score" /></a>
-        <br /><a href="https://codeclimate.com/github/attogram/wiib"><img src="https://codeclimate.com/github/attogram/wiib/badges/gpa.svg" alt="Code Climate" /></a>
-        <br /><a href="https://codeclimate.com/github/attogram/wiib"><img src="https://codeclimate.com/github/attogram/wiib/badges/issue_count.svg" alt="Issue Count" /></a>
-    </div>
-  </div>
-
-  <a name="yamwat"></a>
-  <div class="row rowb highlight">
-    <div class="col-sm-5">
-      <h2 class="squished"><a href="https://github.com/attogram/yamwat">Yamwat</a></h2>
-       Yamwat - Yet Another MediaWiki API Tool.
-       PHP / SQLite
-       <br /><a href="http://getitdaily.com/wikis/">http://getitdaily.com/wikis/</a>
-    </div>
-    <div class="col-sm-2">
-        <a href="https://github.com/attogram/yamwat/blob/master/README.md">README</a>
-    </div>
-    <div class="col-sm-2">
-    </div>
-    <div class="col-sm-3">
-        <a href="https://www.codacy.com/app/attogram-project/yamwat?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=attogram/yamwat&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/46ecaa5d7a374a48b781d9774c7241cc" alt="Score" /></a>
-        <br /><a href="https://codeclimate.com/github/attogram/yamwat"><img src="https://codeclimate.com/github/attogram/yamwat/badges/gpa.svg" alt="Code Climate" /></a>
-        <br /><a href="https://codeclimate.com/github/attogram/yamwat"><img src="https://codeclimate.com/github/attogram/yamwat/badges/issue_count.svg" alt="Issue Count" /></a>
-    </div>
-  </div>
-
-  <a name="htfaker"></a>
-  <div class="row rowb highlight">
-    <div class="col-sm-5">
-      <h2 class="squished"><a href="https://github.com/attogram/htfaker">htfaker</a></h2>
-      htfaker emulates Apache .htaccess functionality for the PHP built-in web server.
-    </div>
-    <div class="col-sm-2">
-      <a href="https://github.com/attogram/htfaker/blob/master/README.md">README</a>
-      <br /><a href="https://github.com/attogram/htfaker/blob/master/CHANGELOG.md">CHANGELOG</a>
-      <br /><a href="https://github.com/attogram/htfaker/blob/master/LICENSE.md">LICENSE</a>
-    </div>
-    <div class="col-sm-2">
-    </div>
-    <div class="col-sm-3">
-    </div>
-  </div>
-
-  <a name="domdoodler"></a>
-  <div class="row rowb highlight">
-    <div class="col-sm-5">
-      <h2 class="squished"><a href="https://github.com/attogram/domdoodler">domdoodler</a></h2>
-        The DOM Doodler.
-        Javascript / HTML / CSS
-        <br /><a href="https://attogram.github.io/domdoodler/">https://attogram.github.io/domdoodler/</a>
-        <br /><a href="http://getitdaily.com/domdoodler/">http://getitdaily.com/domdoodler/</a>
-    </div>
-    <div class="col-sm-2">
-        <a href="https://github.com/attogram/domdoodler/blob/master/README.md">README</a>
-    </div>
-    <div class="col-sm-2">
-      <a href="https://travis-ci.org/attogram/domdoodler"><span class="buildb img-rounded">HTML5</span><img src="https://travis-ci.org/attogram/domdoodler.svg?branch=master" alt="Build" /></a>
-    </div>
-    <div class="col-sm-3">
-      <a href="https://www.codacy.com/app/attogram-project/domdoodler?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=attogram/domdoodler&amp;utm_campaign=Badge_Grade"><span class="buildb img-rounded">JS, CSS</span><img src="https://api.codacy.com/project/badge/Grade/eeecb4a89af54177a1e100c61c184460" alt="Badge" /></a>
-      <br /><a href="https://codeclimate.com/github/attogram/domdoodler"><span class="buildb img-rounded">JS, CSS</span><img src="https://codeclimate.com/github/attogram/domdoodler/badges/gpa.svg" alt="Badge" /></a>
-      <br /><a href="https://codeclimate.com/github/attogram/domdoodler"><img src="https://codeclimate.com/github/attogram/domdoodler/badges/issue_count.svg" alt="Badge" /></a>
-    </div>
-  </div>
-
-  <a name="attogram.github.io"></a>
-  <div class="row rowb highlight">
-    <div class="col-sm-5">
-      <h2 class="squished"><a href="https://github.com/attogram/attogram.github.io">attogram.github.io</a></h2>
-      This website!
-      HTML / CSS
-      <br /><a href="https://attogram.github.io">https://attogram.github.io</a>
-    </div>
-    <div class="col-sm-2">
-    </div>
-    <div class="col-sm-2">
-        <a href="https://travis-ci.org/attogram/attogram.github.io"><span class="buildb img-rounded">HTML5</span><img src="https://travis-ci.org/attogram/attogram.github.io.svg?branch=master" alt="Build" /></a>
-    </div>
-    <div class="col-sm-3">
-        <a href="https://www.codacy.com/app/attogram-project/attogram-github-io?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=attogram/attogram.github.io&amp;utm_campaign=Badge_Grade"><span class="buildb img-rounded">CSS</span><img src="https://api.codacy.com/project/badge/Grade/8c1baebcf5df4cb79c1fc402322c0675" alt="Badge" /></a>
-        <br /><a href="https://codeclimate.com/github/attogram/attogram.github.io"><span class="buildb img-rounded">CSS</span><img src="https://codeclimate.com/github/attogram/attogram.github.io/badges/gpa.svg" alt="Badge" /></a>
-        <br /><a href="https://codeclimate.com/github/attogram/attogram.github.io"><img src="https://codeclimate.com/github/attogram/attogram.github.io/badges/issue_count.svg" alt="Badge" /></a>
-    </div>
-  </div>
-
-<footer class="text-center small highlight">
-  <p><br /></p>
-  <a href="https://attogram.github.io/"><strong>attogram</strong>.github.io</a>
-  &nbsp; | &nbsp; <a href="https://github.com/attogram"><strong>github</strong>.com/attogram</a>
-  &nbsp; | &nbsp; <a href="https://patreon.com/attogram"><strong>patreon</strong>.com/attogram</a>
-  &nbsp; | &nbsp; <a href="https://packagist.org/packages/attogram/"><strong>packagist</strong>.org/packages/attogram</a>
-  &nbsp; | &nbsp; <a href="https://travis-ci.org/attogram"><strong>travis-ci</strong>.org/attogram</a>
-</footer>
-</div>
-</body>
+<div class="list"><div class="project"><a href="https://github.com/attogram/EightQueens"><img src="logos/EightQueens.png" width="320" height="160" alt="Eight Queens"></a><div class="name"> &nbsp; <a href="https://github.com/attogram/EightQueens">Eight Queens</a></div><div class="about">Eight Queens chess game. Can you place 8 queens on the board with none under attack? A web game inspired by the dreaded programmers interview question.</div><div class="tech">React with Chessboard.jsx</div><p> &nbsp; <a href="https://github.com/attogram/EightQueens">Eight Queens <b>Project Info</b></a></p><p> &nbsp; <a href="https://attogram.github.io/EightQueens/">Eight Queens <b>Live Demo</b></a></p></div><div class="project"><a href="https://github.com/attogram/ote"><img src="logos/ote.png" width="320" height="160" alt="Open Translation Engine"></a><div class="name"> &nbsp; <a href="https://github.com/attogram/ote">Open Translation Engine</a></div><div class="about">A collaborative translation dictionary manager for the open content web.</div><div class="tech">PHP, SQLite</div><p> &nbsp; <a href="https://github.com/attogram/ote">Open Translation Engine <b>Project Info</b></a></p><p> &nbsp; <a href="https://ote.2meta.com/">Open Translation Engine <b>Live Demo</b></a></p></div><div class="project"><a href="https://github.com/attogram"><img src="logos/github.png" width="320" height="160" alt="Attogram on Github"></a><div class="name"> &nbsp; <a href="https://github.com/attogram">Attogram on Github</a></div><div class="about">Our main repository service provider.</div><p> &nbsp; <a href="https://github.com/attogram">Attogram on Github <b>Project Info</b></a></p></div><div class="project"><a href="https://www.patreon.com/attogram"><img src="logos/patreon.png" width="320" height="160" alt="Attogram on Patreon"></a><div class="name"> &nbsp; <a href="https://www.patreon.com/attogram">Attogram on Patreon</a></div><div class="about">Support future developments!</div><p> &nbsp; <a href="https://www.patreon.com/attogram">Attogram on Patreon <b>Project Info</b></a></p></div></div></body>
 </html>

@@ -1,0 +1,50 @@
+body {
+    background-color: lightgray;
+    font-family: sans-serif;
+    margin: 10px;
+}
+a, a:visited {
+    color: darkblue;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #e1ff67;
+    color: black;
+}
+h1 {
+    font-size: 130%;
+    display: inline;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.project {
+    background-color: white;
+    border: 1px solid grey;
+    margin: 5px;
+    margin-right: 10px;
+    padding: 0 0 10px 0;
+    text-align: left;
+    width: 320px;
+}
+.project img {
+    border: 0;
+    border-bottom: 1px solid grey;
+    height: 160px;
+    margin: 0;
+    padding: 0;
+    width: 320px;
+}
+.project .name {
+    font-size: 135%;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.project .about {
+    padding: 10px;
+}
+.project .tech {
+    font-style: italic;
+    padding: 10px;
+}

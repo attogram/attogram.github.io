@@ -7,7 +7,7 @@ $projects = [
         'about'   => 'Eight Queens chess game.'
                       . ' Can you place 8 queens on the board with none under attack?'
                       . ' A web game inspired by the dreaded programmers interview question.',
-        'tech'    => 'React with Chessboard.jsx',
+        'tech'    => 'Javascript, React, Chessboard.jsx',
         'home'    => 'https://github.com/attogram/EightQueens',
         'demo'    => 'https://attogram.github.io/EightQueens/',
     ],
@@ -27,15 +27,15 @@ $projects = [
     ],
     'shared-media-tagger' => [
         'name'    => 'Shared Media Tagger',
-        'about'   => 'Crowdsourced ratings website for freely licensed images and media from Wikimedia Commons. PHP, SQLite, MediaWiki API, Curators backend.',
-        'tech'    => 'PHP, Wikimedia API',
+        'about'   => 'Crowdsourced ratings website for freely licensed images and media from Wikimedia Commons.',
+        'tech'    => 'PHP, SQLite, Wikimedia API',
         'home'    => 'https://github.com/attogram/shared-media-tagger',
         'demo'    => 'https://fosiper.com/cats/',
     ],
     'ote' => [
         'name'    => 'Open Translation Engine',
         'about'   => 'A collaborative translation dictionary manager for the open content web.',
-        'tech'    => 'PHP, SQLite',
+        'tech'    => 'PHP, SQLite / MySQL',
         'home'    => 'https://github.com/attogram/ote',
         'demo'    => 'https://ote.2meta.com/',
     ],

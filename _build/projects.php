@@ -9,7 +9,7 @@ $projects = [
                       . ' A web game inspired by the dreaded programmers interview question.',
         'tech'    => 'Javascript, React, Chessboard.jsx',
         'home'    => 'https://github.com/attogram/EightQueens',
-        'demo'    => 'https://attogram.github.io/EightQueens/',
+        'demo'    => 'https://fosiper.com/games/EightQueens/',
     ],
     'currency-exchange-rates' => [
         'name'    => 'Currency Exchange Rates',
@@ -34,7 +34,7 @@ $projects = [
     ],
     'ote' => [
         'name'    => 'Open Translation Engine',
-        'about'   => 'A collaborative translation dictionary manager for the open content web.',
+        'about'   => 'A collaborative translation dictionary manager for the open content web.  Started in 2001.',
         'tech'    => 'PHP, SQLite / MySQL',
         'home'    => 'https://github.com/attogram/ote',
         'demo'    => 'https://ote.2meta.com/',

@@ -64,6 +64,14 @@ $projects = [
         'demo'    => 'https://ote.2meta.com/',
         'start'   => '2001',
     ],
+    'randomosity-tester' => [
+        'name'    => 'Randomosity Tester',
+        'about'   => 'Randomosity Tester - frequency distribution and timings for PHP rand(), mt_rand(), random_int(), and SQLite ORDER BY RANDOM()',
+        'tech'    => 'PHP, SQLite',
+        'home'    => 'https://github.com/attogram/randomosity-tester',
+        'demo'    => 'http://fosiper.com/random/',
+        'start'   => '2017',
+    ],
     'github' => [
         'name'    => 'Attogram on Github',
         'about'   => 'Our Git repository service provider.'

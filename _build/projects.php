@@ -72,6 +72,13 @@ $projects = [
         'demo'    => 'http://fosiper.com/random/',
         'start'   => '2017',
     ],
+    'attogram' => [
+        'name'    => 'Attogram Framework',
+        'about'   => 'The Attogram Framework provides developers a PHP skeleton starter site with a content module system, file-based URL routing, IP-protected backend, Markdown parser, jQuery and Bootstrap.  Core modules available to add an integrated SQLite database with web admin, user system, and more.',
+        'tech'    => 'PHP, SQLite',
+        'home'    => 'https://github.com/attogram/attogram',
+        'start'   => '2016',
+    ],
     'github' => [
         'name'    => 'Attogram on Github',
         'about'   => 'Our Git repository service provider.'

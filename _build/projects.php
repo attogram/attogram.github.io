@@ -46,6 +46,12 @@ $projects = [
         'home'    => 'https://github.com/attogram/router',
         'demo'    => 'https://getitdaily.com/attogram-router/',
     ],
+    'clean-repo-games' => [
+        'name'    => 'Clean Repo: Games',
+        'about'   => 'Clean Repo: Games - a collaborative project to find and remove hidden tracking codes, advertising, trojans and excessive promotional content from open source game repositories.',
+        'home'    => 'https://github.com/attogram/clean-repo-games',
+        'demo'    => 'https://attogram.github.io/clean-repo-games/',
+    ],
     'ote' => [
         'name'    => 'Open Translation Engine',
         'about'   => 'A collaborative translation dictionary manager for the open content web.',

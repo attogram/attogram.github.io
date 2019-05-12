@@ -39,6 +39,13 @@ $projects = [
         'home'    => 'https://github.com/attogram/shared-media-tagger',
         'demo'    => 'https://fosiper.com/cats/',
     ],
+    'router' => [
+        'name'    => 'Attogram Router',
+        'about'   => 'Attogram Router for PHP 7 - small, flexible, and surprisingly powerful.',
+        'tech'    => 'PHP 7',
+        'home'    => 'https://github.com/attogram/router',
+        'demo'    => 'https://getitdaily.com/attogram-router/',
+    ],
     'ote' => [
         'name'    => 'Open Translation Engine',
         'about'   => 'A collaborative translation dictionary manager for the open content web.',

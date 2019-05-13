@@ -18,6 +18,7 @@ $projects = [
         'tech'    => 'PHP 7, Git',
         'home'    => 'https://github.com/attogram/games',
         'demo'    => 'https://fosiper.com/games/',
+        'start'   => '2016',
     ],
     'currency-exchange-rates' => [
         'name'    => 'Currency Exchange Rates',
@@ -41,6 +42,7 @@ $projects = [
         'tech'    => 'PHP, SQLite, Wikimedia API',
         'home'    => 'https://github.com/attogram/shared-media-tagger',
         'demo'    => 'https://fosiper.com/cats/',
+        'start'   => '2017',
     ],
     'router' => [
         'name'    => 'Attogram Router',

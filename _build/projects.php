@@ -44,6 +44,13 @@ $projects = [
         'demo'    => 'https://fosiper.com/cats/',
         'start'   => '2017',
     ],
+    'shared-media-api' => [
+        'name'    => 'Shared Media API',
+        'about'   => 'MediaWiki Query API wrapper that easily gets Category and Media file information into simple PHP arrays. Fine-tuned for WikiMedia Commmons.',
+        'tech'    => 'PHP, MediaWiki API',
+        'home'    => 'https://github.com/attogram/shared-media-api',
+        'start'   => '2017',
+    ],
     'router' => [
         'name'    => 'Attogram Router',
         'about'   => 'Attogram Router for PHP 7 - small, flexible, and surprisingly powerful.',
@@ -68,18 +75,11 @@ $projects = [
     ],
     'randomosity-tester' => [
         'name'    => 'Randomosity Tester',
-        'about'   => 'Randomosity Tester - frequency distribution and timings for PHP rand(), mt_rand(), random_int(), and SQLite ORDER BY RANDOM()',
+        'about'   => 'Frequency distribution and timings for PHP rand(), mt_rand(), random_int(), and SQLite ORDER BY RANDOM()',
         'tech'    => 'PHP, SQLite',
         'home'    => 'https://github.com/attogram/randomosity-tester',
         'demo'    => 'http://fosiper.com/random/',
         'start'   => '2017',
-    ],
-    'attogram' => [
-        'name'    => 'Attogram Framework',
-        'about'   => 'The Attogram Framework provides developers a PHP skeleton starter site with a content module system, file-based URL routing, IP-protected backend, Markdown parser, jQuery and Bootstrap.  Core modules available to add an integrated SQLite database with web admin, user system, and more.',
-        'tech'    => 'PHP, SQLite',
-        'home'    => 'https://github.com/attogram/attogram',
-        'start'   => '2016',
     ],
     'github' => [
         'name'    => 'Attogram on Github',

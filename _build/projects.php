@@ -103,11 +103,6 @@ $projects = [
         'home'    => 'https://github.com/attogram',
         'start'   => '2014',
     ],
-    'patreon' => [
-        'name'    => 'Attogram on Patreon',
-        'about'   => 'Support future developments!',
-        'home'    => 'https://www.patreon.com/attogram',
-    ],
 ];
 
 $notReadyForPrimeTimePlayers = [
@@ -116,4 +111,9 @@ $notReadyForPrimeTimePlayers = [
     'random-image' => [],
     'yamwat' => [],
     'domdoodler' => [],
+    'patreon' => [
+        'name'    => 'Attogram on Patreon',
+        'about'   => 'Support future developments!',
+        'home'    => 'https://www.patreon.com/attogram',
+    ],
 ];

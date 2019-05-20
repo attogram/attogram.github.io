@@ -82,6 +82,20 @@ $projects = [
         'demo'    => 'http://fosiper.com/random/',
         'start'   => '2017',
     ],
+    'DAMS' => [
+        'name'    => 'Dictionary Additions Management Systems',
+        'about'   => 'Open content translation dictionary files.',
+        'home'    => 'https://github.com/attogram/DAMS',
+        'start'   => '2016',
+    ],
+    'react-tidbits' => [
+        'name'    => 'React Tidbits',
+        'about'   => 'React component to show ever changing content.',
+        'tech'    => 'Javascript, React',
+        'home'    => 'https://github.com/attogram/react-tidbits',
+        'demo'    => 'https://attogram.github.io/react-tidbits/',
+        'start'   => '2019',
+    ],
     'github' => [
         'name'    => 'Attogram on Github',
         'about'   => 'Our Git repository service provider.'
@@ -94,4 +108,12 @@ $projects = [
         'about'   => 'Support future developments!',
         'home'    => 'https://www.patreon.com/attogram',
     ],
+];
+
+$notReadyForPrimeTimePlayers = [
+    'database' => [],
+    'message-storage' => [],
+    'random-image' => [],
+    'yamwat' => [],
+    'domdoodler' => [],
 ];

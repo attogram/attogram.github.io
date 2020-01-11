@@ -3,7 +3,6 @@ declare(strict_types = 1);
 
 namespace Attogram\Projects;
 
-use DateTime;
 use Exception;
 
 use function count;
@@ -19,7 +18,7 @@ use function strlen;
 
 class AttogramWebsite
 {
-    const VERSION = '4.0.0';
+    const VERSION = '4.0.1';
 
     const LOGO_SUBDIRECTORY = 'logos';
     const LOGO_WIDTH = 320;

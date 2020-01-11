@@ -2,11 +2,19 @@
 // Attogram Website Configuration
 
 $projects = [
+    'justrefs' => [
+        'name'    => 'Just Refs',
+        'about'   => 'Extract a list of reference links and a list of related topics from any page on the English Wikipedia.  Remove the distraction of prose written by others!',
+        'tech'    => 'PHP 7, Wikimedia API',
+        'home'    => 'https://github.com/attogram/justrefs',
+        'demo'    => 'https://getitdaily.com/justrefs/',
+        'start'   => '2020',
+    ],
     'EightQueens' => [
         'name'    => 'Eight Queens',
-        'about'   => 'Eight Queens chess game.'
-                      . ' Can you place 8 queens on the board with none under attack?'
-                      . ' A web game inspired by the dreaded programmers interview question.',
+        'about'   => 'The Eight Queens chess game - '
+                      . 'Can you place 8 queens on the board with none under attack?'
+                      . ' A web game inspired by the classic math puzzle.',
         'tech'    => 'Javascript, React, Chessboard.jsx',
         'home'    => 'https://github.com/attogram/EightQueens',
         'demo'    => 'https://fosiper.com/games/EightQueens/',

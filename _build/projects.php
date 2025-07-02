@@ -2,6 +2,33 @@
 // Attogram Website Configuration
 
 $projects = [
+
+    'ollama-multirun' => [
+        'name'    => 'Ollama Multirun',
+        'about'   => 'A bash shell script to run a single prompt against any or all of your locally installed ollama models,
+saving the output and performance statistics as easily navigable web pages.',
+        'tech'    => 'Bash, Ollama',
+        'home'    => 'https://github.com/attogram/ollama-multirun',
+        'demo'    => 'https://attogram.github.io/ai_test_zone/',
+        'start'   => '2025',
+    ],
+
+    'ollama-bash-toolshed' => [
+        'name'    => 'Ollama Bash Toolshed',
+        'about'   => 'Bash scripts to chat with tool using models. Add new tools to your shed with ease. Runs on Ollama.',
+        'tech'    => 'Bash, Ollama',
+        'home'    => 'https://github.com/attogram/ollama-bash-toolshed',
+        'start'   => '2025',
+    ],
+
+    'llm-council' => [
+        'name'    => 'LLM Council',
+        'about'   => 'A bash script to start a chat room between all, or some, of your models running on ollama.',
+        'tech'    => 'Bash, Ollama',
+        'home'    => 'https://github.com/attogram/llm-council',
+        'start'   => '2025',
+    ],
+
     'justrefs' => [
         'name'    => 'Just Refs',
         'about'   => 'Extract a list of reference links and a list of related topics from any page on the English Wikipedia.  Remove the distraction of prose written by others!',

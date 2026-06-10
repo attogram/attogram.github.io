@@ -15,8 +15,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -33,5 +31,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add blog/ .nojekyll
-          git diff-index --quiet HEAD || (git pull --rebase && git commit -m "Auto-rebuild blog" && git push)
+          git add blog/
+          git diff-index --quiet HEAD || git commit -m "Auto-rebuild blog"
+          git push

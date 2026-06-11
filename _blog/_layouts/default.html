@@ -4,7 +4,7 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
 {% seo %}
@@ -14,33 +14,34 @@
   <body>
 
     <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          Attogram Project &nbsp;
-          <a href="https://github.com/attogram">Github</a> &nbsp;
-          <a href="https://discord.gg/BGQJCbYVBa">Discord</a> &nbsp;
-          <a href="/">Portfolio</a>
-        </header>
-    </div>
+    <header>
+        <div>Attogram project</div>
+        <nav>
+            <a href="/blog/">Blog Home</a>
+            <a href="/">Portfolio</a>
+            <a href="https://github.com/attogram">GitHub</a>
+            <a href="https://discord.gg/BGQJCbYVBa">Discord</a>
+        </nav>
+    </header>
 
     <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+    <div id="main_content_wrap">
+      <section id="main_content">
         {{ content }}
       </section>
     </div>
 
     <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>
-          <a href="https://github.com/attogram">Github</a>
-          &nbsp;
-          <a href="https://discord.gg/BGQJCbYVBa">Discord</a>
-          &nbsp;
-          <a href="/">Portfolio</a>
-        </p>
-      </footer>
-    </div>
+    <footer>
+      <p>
+        <a href="/blog/">Blog Home</a>
+        &nbsp;
+        <a href="/">Portfolio</a>
+        &nbsp;
+        <a href="https://github.com/attogram">GitHub</a>
+        &nbsp;
+        <a href="https://discord.gg/BGQJCbYVBa">Discord</a>
+      </p>
+    </footer>
   </body>
 </html>

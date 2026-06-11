@@ -1,3 +1,80 @@
 ---
 ---
 @import "jekyll-theme-slate";
+
+body {
+    background-color: #fdfdfd;
+    color: #222;
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#header_wrap, #footer_wrap, #main_content_wrap {
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+#header_wrap .inner, #footer_wrap .inner, #main_content_wrap .inner {
+    padding: 0;
+    max-width: none;
+    width: auto;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header div {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #222;
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+a, a:visited {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+}
+
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-family: monospace;
+    font-size: 0.85em;
+    color: #666;
+}
+
+footer a, footer a:visited {
+    color: #0056b3;
+}
+
+/* Fix for dark contrast issues if any remain from theme */
+.highlight {
+    background: #f8f8f8;
+}
+
+code {
+    color: #d11141;
+    background: #f8f8f8;
+}

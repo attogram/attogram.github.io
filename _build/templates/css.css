@@ -1,65 +1,90 @@
 body {
-    background-color: lightgray;
-    font-family: sans-serif;
-    margin: 10px;
+    background-color: #fdfdfd;
+    color: #222;
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    margin-bottom: 30px;
+}
+header div {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+nav {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
 }
 a, a:visited {
-    color: darkblue;
+    color: #0056b3;
     text-decoration: none;
 }
 a:hover {
-    background-color: #e1ff67;
-    color: black;
-}
-h1 {
-    font-size: 130%;
-    display: inline;
+    text-decoration: underline;
 }
 .list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .project {
     background-color: white;
-    border: 1px solid grey;
-    margin: 5px;
-    margin-right: 10px;
-    padding: 0 0 10px 0;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
     text-align: left;
-    width: 320px;
+    width: 380px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 .project img {
     border: 0;
-    border-bottom: 1px solid grey;
-    height: 160px;
+    border-bottom: 1px solid #eee;
+    height: 190px;
     margin: 0;
     padding: 0;
-    width: 320px;
+    width: 100%;
+    object-fit: cover;
 }
 .project .name, .about, .home, .demo, .tech, .start {
-    margin: 10px 10px 10px 10px;
+    margin: 10px 15px;
 }
 .project .name {
-    font-size: 135%;
+    font-size: 1.2em;
     font-weight: bold;
 }
 .project .about {
-    font-size: 95%;
+    font-size: 0.95em;
 }
 .project .home, .demo, .tech, .start {
-    font-size: 85%;
+    font-size: 0.85em;
 }
 .project .tech {
     font-style: italic;
+    color: #666;
 }
 .project .start {
     font-family: monospace;
     float: right;
-    margin-bottom: 0;
+    margin-bottom: 10px;
+    color: #888;
 }
 footer {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
     font-family: monospace;
-    font-size: 90%;
+    font-size: 0.85em;
+    color: #666;
+}
+@media (max-width: 768px) {
+    .project {
+        width: 100%;
+    }
 }

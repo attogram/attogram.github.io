@@ -2,9 +2,8 @@
 layout: default
 ---
 
-<h1>Title: {{ page.title }}</h1>
-<p>By: {{ page.author | default: site.author }}</p>
-<p>Body:</p>
+<h1>{{ page.title }}</h1>
+<p>{{ page.author | default: site.author }}</p>
 <div class="post-body">
   {{ content }}
 </div>

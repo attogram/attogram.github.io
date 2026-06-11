@@ -7,5 +7,15 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: jekyll-theme-slate
+
+collections:
+  entries:
+    output: true
+    permalink: /:name.html
+feed:
+  collections:
+    entries:
+      content: true
+
 plugins:
   - jekyll-feed

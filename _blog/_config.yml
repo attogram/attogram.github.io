@@ -1,4 +1,5 @@
 title: Attogram Blog
+author: Attogram Project
 email: your-email@example.com
 description: ""
 baseurl: "/blog" # the subpath of your site, e.g. /blog

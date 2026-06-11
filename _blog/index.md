@@ -4,10 +4,9 @@ title: Blog
 ---
 
 <ul>
-  {% for post in site.posts %}
+  {% for entry in site.entries %}
     <li>
-      {{ post.date | date: "%Y-%m-%d" }} -
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
     </li>
   {% endfor %}
 </ul>

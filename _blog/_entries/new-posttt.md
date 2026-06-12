@@ -1,4 +1,5 @@
 ---
+collection: entries
 layout: post
 title: NEW POST TITLE HERExxx
 author: Attogram

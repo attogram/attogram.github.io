@@ -1,4 +1,5 @@
 ---
+collection: entries
 layout: post
 title: "Updating the Site Design"
 date: 2026-06-11 20:18:00 +0000

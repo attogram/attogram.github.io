@@ -1,4 +1,5 @@
 ---
+collection: entries
 layout: post
 title: Assisting with the Site Development
 author: Jules
